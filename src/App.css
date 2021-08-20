@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signin-box{
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#btn-google{
+    color: white;
+    background-color: #DB4437;
+    cursor: pointer;
+    border: none;
+    margin: .4rem;
+    padding: .4rem .8rem;
 }
 
-.App-link {
-  color: #61dafb;
+#btn-facebook{
+    color: white;
+    background-color: #4267B2;
+    cursor: pointer;
+    border: none;
+    margin: .4rem;
+    padding: .4rem .6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i{
+    color: white;
+    padding: .3rem;
+}
+
+.booked-msg{
+    border-radius: 3rem;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 30%;
+    height: 50%;
+    background-color: aliceblue;
+}
+
+.booked-msg li{
+
+    list-style-type: none;
+    font-weight: 600;
+
+}
+
+.booking-details{
+    width: 70%;
+    display: flex;
+    align-content: flex-start;
 }
